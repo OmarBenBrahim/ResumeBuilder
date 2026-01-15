@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "id": "kidcare",
+      "name": "KidCare",
+      "description": "Mobile app for parents to monitor and manage their children's activities",
+      "highlights": [
+        "Developed a mobile app for parents to monitor and manage their children's activities, integrating payment options like Konnect, Stripe, and Solid Tel App Link",
+        "Built a responsive, SEO-optimized website using Astro and Framer Motion, improving page load time by 30% and supporting multilingual content via i18n"
+      ],
+      "technologies": ["React Native", "Astro", "Framer Motion", "Stripe", "Konnect", "i18n"],
+      "metrics": {
+        "pageLoadImprovement": "30%"
+      },
+      "keywords": ["mobile app", "parenting", "payment integration", "SEO", "multilingual"],
+      "links": {}
+    },
+    {
+      "id": "messaging-app",
+      "name": "Messaging App",
+      "description": "Real-time web application for messaging with photo sharing and admin controls",
+      "highlights": [
+        "Creating Real-Time Web Applications using ASP.NET and Angular 14 SQL, Cloudinary with functions of sending live messages, uploading Photos, and controlling photo Approval by Admin"
+      ],
+      "technologies": ["ASP.NET", "Angular 14", "SQL", "Cloudinary"],
+      "keywords": ["real-time", "messaging", "photo sharing", "admin controls"],
+      "links": {
+        "backend": "#",
+        "frontend": "#"
+      }
+    }
+  ],
+  "additionalProjects": [
+    {
+      "name": "AI Customer Support Agent",
+      "description": "Built intelligent customer support agents that handle inquiries, schedule appointments, and execute tasks automatically",
+      "technologies": ["n8n", "Vapi", "ElevenLabs", "Node.js"],
+      "keywords": ["AI", "customer support", "automation", "voice AI"]
+    },
+    {
+      "name": "Voice-Enabled Assistant",
+      "description": "Implemented voice AI assistants with real-time communication logic for workflow handoff and data capture",
+      "technologies": ["Vapi", "ElevenLabs", "TypeScript", "Webhooks"],
+      "keywords": ["voice AI", "real-time", "workflow automation"]
+    }
+  ]
+}

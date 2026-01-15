@@ -1,0 +1,43 @@
+{
+  "experience": [
+    {
+      "id": "freelance-2024",
+      "company": "Freelance",
+      "role": "Full Stack & AI Automation Developer",
+      "startDate": "Jan 2024",
+      "endDate": "Present",
+      "current": true,
+      "highlights": [
+        "Built AI agents for customer support, scheduling, and task execution, reducing operational workload for clients",
+        "Developed full-stack applications using Next.js, React, Supabase, Tailwind, and TypeScript",
+        "Integrated automation systems using n8n, Vapi, ElevenLabs, Webhooks, and API orchestration",
+        "Implemented voice AI assistants and real-time communication logic for workflow handoff and data capture"
+      ],
+      "technologies": ["Next.js", "React", "Supabase", "Tailwind", "TypeScript", "n8n", "Vapi", "ElevenLabs"],
+      "keywords": ["AI agents", "automation", "voice AI", "full-stack", "workflow automation"]
+    },
+    {
+      "id": "nna-resources",
+      "company": "NNA Resources",
+      "role": "Front-End Developer & React Native Developer",
+      "startDate": "Apr 2023",
+      "endDate": "Nov 2024",
+      "current": false,
+      "highlights": [
+        "Built and deployed scalable mobile applications using React Native",
+        "Collaborated with UI/UX and backend teams to deliver cross-platform features",
+        "Improved app performance by 15% through optimization and refactoring",
+        "Developed SEO-optimized, multilingual web experiences using Next.js and Astro"
+      ],
+      "technologies": ["React Native", "Next.js", "Astro", "JavaScript", "TypeScript"],
+      "keywords": ["mobile development", "React Native", "cross-platform", "SEO", "performance optimization"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Higher Institute of Technological Studies of Nabeul",
+      "degree": "Bachelor's Degree in Computer Science",
+      "year": 2021
+    }
+  ]
+}

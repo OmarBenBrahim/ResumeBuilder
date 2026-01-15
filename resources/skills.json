@@ -1,0 +1,36 @@
+{
+  "frontend": {
+    "primary": ["Next.js", "React.js", "React Native", "TypeScript", "Tailwind CSS"],
+    "secondary": ["Astro", "HTML5", "CSS3", "Framer Motion"],
+    "proficiency": "Expert"
+  },
+  "backend": {
+    "primary": ["Node.js", "Express.js", "Hono"],
+    "secondary": [".NET Core", "Symfony", "PHP", "Java", "ASP.NET"],
+    "proficiency": "Expert"
+  },
+  "automation": {
+    "primary": ["AI Agents", "Workflow Automation", "n8n", "Vapi", "ElevenLabs"],
+    "secondary": ["LLM-powered assistants", "Real-time integrations", "Webhooks", "API orchestration"],
+    "proficiency": "Expert"
+  },
+  "databases": {
+    "primary": ["PostgreSQL", "Supabase", "Firebase"],
+    "secondary": ["MySQL", "MongoDB", "Cassandra"],
+    "proficiency": "Advanced"
+  },
+  "tools": {
+    "devops": ["Git", "Docker"],
+    "collaboration": ["Agile", "Jira", "Figma"],
+    "apis": ["REST APIs", "Webhooks", "Real-time APIs"]
+  },
+  "specializations": [
+    "AI-driven automation",
+    "Voice AI assistants",
+    "Full-stack application development",
+    "Mobile app development",
+    "SEO optimization",
+    "Multilingual web experiences",
+    "Payment integrations"
+  ]
+}

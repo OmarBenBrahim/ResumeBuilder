@@ -1,0 +1,39 @@
+{
+  "additionalSkills": [
+    {
+      "category": "AI & Machine Learning",
+      "skills": ["LLM Integration", "Prompt Engineering", "AI Agent Development", "Conversational AI", "Voice AI Implementation"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": ["Vercel Deployment", "Docker Containerization", "CI/CD Pipelines", "Serverless Functions"]
+    },
+    {
+      "category": "Payment Integrations",
+      "skills": ["Stripe", "Konnect", "Payment Gateway Integration"]
+    },
+    {
+      "category": "Real-time Technologies",
+      "skills": ["WebSockets", "Real-time Database Sync", "Webhook Integrations", "Event-driven Architecture"]
+    },
+    {
+      "category": "SEO & Performance",
+      "skills": ["Technical SEO", "Core Web Vitals Optimization", "Lighthouse Performance", "Image Optimization"]
+    }
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Team Collaboration",
+    "Client Communication",
+    "Project Management",
+    "Agile Methodology",
+    "Self-motivated",
+    "Continuous Learning"
+  ],
+  "certifications": [],
+  "achievements": [
+    "Improved app performance by 15% through optimization and refactoring",
+    "Improved page load time by 30% using Astro and optimization techniques",
+    "Successfully reduced operational workload for clients through AI automation"
+  ]
+}

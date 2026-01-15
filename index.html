@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Ben Brahim - Full Stack & AI Developer Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              heading: ['"Bricolage Grotesque"', "system-ui", "sans-serif"],
+              body: ['"TT Hoves"', "Inter", "system-ui", "sans-serif"],
+            },
+            colors: {
+              "resume-black": "#000000",
+              "resume-text": "#1a1a1a",
+              "resume-body": "#333333",
+              "resume-link": "#2563eb",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Fonts similar to PDF -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-gray-100 antialiased">
+    <!-- Download Button -->
+    <div class="fixed top-5 right-5 z-50 no-print">
+      <button
+        id="downloadBtn"
+        class="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg font-semibold text-sm shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download PDF
+      </button>
+    </div>
+
+    <!-- Resume Container -->
+    <div id="resume" class="resume-page">
+      <!-- Header -->
+      <header class="text-center mb-2">
+        <h1 class="resume-name">OMAR BEN BRAHIM</h1>
+        <p class="resume-contact">
+          Menzel Temime, Nabeul, Tunisia | <a href="mailto:benbrahimomar7@gmail.com">benbrahimomar7@gmail.com</a> | +216 54 890 978
+        </p>
+        <p class="resume-links">
+          <a href="https://github.com/OmarBenBrahim" target="_blank">github.com/OmarBenBrahim</a> |
+          <a href="https://linkedin.com/in/omarbenbrahim" target="_blank">linkedin.com/in/omarbenbrahim</a> |
+          <a href="https://omar-ben-brahim.vercel.app" target="_blank">omar-ben-brahim.vercel.app</a>
+        </p>
+      </header>
+
+      <!-- Professional Summary -->
+      <section class="resume-section">
+        <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
+        <p class="resume-text">
+          Full Stack Developer specializing in AI-driven automation, agent development, and end-to-end application delivery. Experienced in building
+          intelligent systems powered by real-time workflows, voice-enabled assistants, and process automation using AI platforms and custom API
+          integrations. Proficient in modern full-stack development with Next.js, React, Supabase, and TypeScript, delivering scalable applications
+          and automation that streamline operations, enhance customer interaction, and reduce manual workload. Adept at architecting solutions from
+          front-end interfaces to backend logic, infrastructure, and deployment.
+        </p>
+      </section>
+
+      <!-- Technical Skills -->
+      <section class="resume-section">
+        <h2 class="section-title">TECHNICAL SKILLS</h2>
+        <div class="skills-list">
+          <p><strong>Frontend:</strong> Next.js, React.js, React Native, Astro, TypeScript, Tailwind CSS, HTML5, CSS3</p>
+          <p><strong>Backend:</strong> Node.js, Express.js, Hono, .NET Core, Symfony, PHP, Java</p>
+          <p><strong>Automation:</strong> AI Agents, Workflow Automation, n8n, Vapi, ElevenLabs, LLM-powered assistants, Real-time integrations</p>
+          <p><strong>Databases:</strong> PostgreSQL, MySQL, Firebase, MongoDB, Cassandra, Supabase</p>
+          <p><strong>Other Tools:</strong> Git, Docker, REST APIs, Agile, Jira, Figma</p>
+          <p><strong>Language:</strong> English, Arabic</p>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="resume-section">
+        <h2 class="section-title">EXPERIENCE</h2>
+
+        <!-- Experience Item 1 -->
+        <div class="experience-item">
+          <div class="experience-header">
+            <span class="experience-title"><strong>Freelance</strong> | Full Stack & AI Automation Developer</span>
+            <span class="experience-date">Jan 2024 – Present</span>
+          </div>
+          <ul class="resume-list">
+            <li>Built AI agents for customer support, scheduling, and task execution, reducing operational workload for clients.</li>
+            <li>Developed full-stack applications using Next.js, React, Supabase, Tailwind, and TypeScript.</li>
+            <li>Integrated automation systems using n8n, Vapi, ElevenLabs, Webhooks, and API orchestration.</li>
+            <li>Implemented voice AI assistants and real-time communication logic for workflow handoff and data capture.</li>
+          </ul>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="experience-item">
+          <div class="experience-header">
+            <span class="experience-title"><strong>NNA Resources</strong> | Front-End Developer & React Native Developer</span>
+            <span class="experience-date">Apr 2023 – Nov 2024</span>
+          </div>
+          <ul class="resume-list">
+            <li>Built and deployed scalable mobile applications using React Native.</li>
+            <li>Collaborated with UI/UX and backend teams to deliver cross-platform features.</li>
+            <li>Improved app performance by 15% through optimization and refactoring.</li>
+            <li>Developed SEO-optimized, multilingual web experiences using Next.js and Astro.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="resume-section">
+        <h2 class="section-title">EDUCATION</h2>
+        <div class="education-item">
+          <div class="education-header">
+            <span class="education-school">Higher Institute of Technological Studies of Nabeul</span>
+            <span class="education-year">2021</span>
+          </div>
+          <p class="education-degree"><strong>Bachelor's Degree in Computer Science</strong></p>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="resume-section">
+        <h2 class="section-title">PROJECTS</h2>
+
+        <!-- Project 1 -->
+        <div class="project-item">
+          <p class="project-title">KidCare</p>
+          <ul class="resume-list">
+            <li>
+              Developed a mobile app for parents to monitor and manage their children's activities, integrating payment options like Konnect, Stripe,
+              and Solid Tel <a href="https://play.google.com/store/apps/details?id=com.kidcare" class="resume-link">App Link</a>.
+            </li>
+            <li>
+              Built a responsive, SEO-optimized website using Astro and Framer Motion, improving page load time by 30% and supporting multilingual
+              content via i18n <a href="https://kidcare-app.com/" class="resume-link">Website</a>.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-item">
+          <p class="project-title">Messaging App</p>
+          <ul class="resume-list">
+            <li>
+              Creating Real-Time Web Applications using ASP.NET and Angular 14 SQL, Cloudinary with functions of sending live messages, uploading
+              Photos, and controlling photo Approval by Admin.
+            </li>
+            <li>
+              Github: <a href="https://github.com/OmarBenBrahim/Messenger_API" class="resume-link">Backend</a> |
+              <a href="https://github.com/OmarBenBrahim/Messenger" class="resume-link">Frontend</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
