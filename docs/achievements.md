@@ -92,7 +92,13 @@ Use this file to find quantifiable achievements to include in tailored resumes.
 
 ---
 
-## Notable Recognitions
+## Certifications
+
+- JavaScript Essential Training – LinkedIn Learning, 2022
+- Complete Guide to Angular – Udemy, 2022
+- Build an App with ASP.NET Core and Angular – Udemy, 2023
+
+---
 
 ### Client Testimonials
 

@@ -1,12 +1,12 @@
 {
   "frontend": {
-    "primary": ["Next.js", "React.js", "React Native", "TypeScript", "Tailwind CSS"],
-    "secondary": ["Astro", "HTML5", "CSS3", "Framer Motion"],
+    "primary": ["Next.js", "React.js", "React Native", "Angular", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
+    "secondary": ["Astro", "jQuery", "AJAX", "Framer Motion", "Material UI"],
     "proficiency": "Expert"
   },
   "backend": {
-    "primary": ["Node.js", "Express.js", "Hono"],
-    "secondary": [".NET Core", "Symfony", "PHP", "Java", "ASP.NET"],
+    "primary": ["Node.js", "Express.js", "Hono", ".NET Core", "ASP.NET", "Symfony", "PHP", "Java"],
+    "secondary": ["Firebase"],
     "proficiency": "Expert"
   },
   "automation": {
@@ -15,14 +15,15 @@
     "proficiency": "Expert"
   },
   "databases": {
-    "primary": ["PostgreSQL", "Supabase", "Firebase"],
-    "secondary": ["MySQL", "MongoDB", "Cassandra"],
+    "primary": ["PostgreSQL", "Supabase", "Firebase", "MySQL", "MongoDB"],
+    "secondary": ["SQL", "Cassandra"],
     "proficiency": "Advanced"
   },
   "tools": {
     "devops": ["Git", "Docker"],
     "collaboration": ["Agile", "Jira", "Figma"],
-    "apis": ["REST APIs", "Webhooks", "Real-time APIs"]
+    "apis": ["REST APIs", "Webhooks", "Real-time APIs"],
+    "other": ["Google Blockly", "Cloudinary"]
   },
   "specializations": [
     "AI-driven automation",
@@ -31,6 +32,7 @@
     "Mobile app development",
     "SEO optimization",
     "Multilingual web experiences",
-    "Payment integrations"
+    "Payment integrations",
+    "Educational software development"
   ]
 }

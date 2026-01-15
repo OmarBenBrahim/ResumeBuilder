@@ -45,7 +45,33 @@ A comprehensive mobile application and website for parents to monitor and manage
 
 ---
 
-## Messaging App
+## CodeKids
+
+### Overview
+
+An educational website designed to teach children programming through interactive Blockly games.
+
+### Features
+
+- Interactive programming lessons using Google Blockly
+- Role-based access control for different user types (public, students, teachers, administrators)
+- Multilingual support for diverse user base
+- Firebase integration for real-time data and authentication
+- Responsive design with Tailwind CSS
+
+### Technical Stack
+
+- **Frontend:** JavaScript, HTML, Tailwind CSS, Google Blockly
+- **Backend:** Firebase
+- **Database:** Firebase
+
+### Results
+
+- Successfully launched educational platform
+- Supported multiple languages
+- Implemented secure access controls
+
+---
 
 ### Overview
 

@@ -24,13 +24,64 @@
       "endDate": "Nov 2024",
       "current": false,
       "highlights": [
+        "Translated Figma designs into interactive websites and mobile apps using Next.js, React, Astro, WordPress, and React Native",
+        "Collaborated on troubleshooting and performance enhancements, improving load times by 15%",
+        "Optimized code structure and UX, improving user engagement and accessibility",
         "Built and deployed scalable mobile applications using React Native",
-        "Collaborated with UI/UX and backend teams to deliver cross-platform features",
-        "Improved app performance by 15% through optimization and refactoring",
         "Developed SEO-optimized, multilingual web experiences using Next.js and Astro"
       ],
-      "technologies": ["React Native", "Next.js", "Astro", "JavaScript", "TypeScript"],
-      "keywords": ["mobile development", "React Native", "cross-platform", "SEO", "performance optimization"]
+      "technologies": ["React Native", "Next.js", "Astro", "React", "WordPress", "JavaScript", "TypeScript"],
+      "keywords": ["mobile development", "React Native", "cross-platform", "SEO", "performance optimization", "Figma", "UX"]
+    },
+    {
+      "id": "3w-wit",
+      "company": "3W WIT Web Agency",
+      "role": "Full Stack Developer",
+      "startDate": "Oct 2022",
+      "endDate": "Jan 2023",
+      "current": false,
+      "highlights": [
+        "Enhanced functionality and user experience by adding new features and fixing bugs in existing projects",
+        "Leveraged technologies including Symfony, AJAX, jQuery, CSS, and SQL to optimize performance and maintainability",
+        "Improved and maintained existing apps using Symfony, jQuery, AJAX, and SQL",
+        "Diagnosed and resolved production bugs, enhancing reliability",
+        "Contributed to a modular, scalable codebase and participated in team code reviews"
+      ],
+      "technologies": ["Symfony", "AJAX", "jQuery", "CSS", "SQL", "PHP"],
+      "keywords": ["bug fixing", "performance optimization", "Symfony", "AJAX", "jQuery"]
+    },
+    {
+      "id": "distinct-lab",
+      "company": "Distinct Lab",
+      "role": "Full Stack Developer",
+      "startDate": "Jun 2022",
+      "endDate": "Oct 2022",
+      "current": false,
+      "highlights": [
+        "Updated an existing project to Angular 14, handling breaking changes and ensuring a smooth migration",
+        "Added new features while optimizing and refactoring code for better performance and maintainability",
+        "Utilized Material UI for a modern UI and Firebase for backend services",
+        "Upgraded Angular-based application to v14, mitigating breaking changes",
+        "Enhanced performance and scalability through refactoring and best-practice architecture",
+        "Integrated Material UI and Firebase for robust and modern app delivery"
+      ],
+      "technologies": ["Angular 14", "Material UI", "Firebase", "TypeScript", "JavaScript"],
+      "keywords": ["Angular upgrade", "migration", "Material UI", "Firebase", "refactoring"]
+    },
+    {
+      "id": "cloud-monsters",
+      "company": "Cloud Monsters",
+      "role": "Full Stack Developer",
+      "startDate": "Jan 2021",
+      "endDate": "Aug 2022",
+      "current": false,
+      "highlights": [
+        "Developed the 'CodeKids' website to teach children programming with Blockly games",
+        "Integrated multilingual support and implemented role-based access for public users, students, teachers, and administrators",
+        "Technologies used: Firebase, JavaScript, HTML, Tailwind CSS, and Google Blockly"
+      ],
+      "technologies": ["Firebase", "JavaScript", "HTML", "Tailwind CSS", "Google Blockly"],
+      "keywords": ["educational website", "Blockly", "multilingual", "role-based access", "children programming"]
     }
   ],
   "education": [
@@ -38,6 +89,11 @@
       "institution": "Higher Institute of Technological Studies of Nabeul",
       "degree": "Bachelor's Degree in Computer Science",
       "year": 2021
+    },
+    {
+      "institution": "Baccalauréat",
+      "degree": "Computer Science",
+      "year": 2018
     }
   ]
 }

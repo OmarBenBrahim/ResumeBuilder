@@ -30,7 +30,23 @@
     "Self-motivated",
     "Continuous Learning"
   ],
-  "certifications": [],
+  "certifications": [
+    {
+      "name": "JavaScript Essential Training",
+      "issuer": "LinkedIn Learning",
+      "year": 2022
+    },
+    {
+      "name": "Complete Guide to Angular",
+      "issuer": "Udemy",
+      "year": 2022
+    },
+    {
+      "name": "Build an App with ASP.NET Core and Angular",
+      "issuer": "Udemy",
+      "year": 2023
+    }
+  ],
   "achievements": [
     "Improved app performance by 15% through optimization and refactoring",
     "Improved page load time by 30% using Astro and optimization techniques",

@@ -28,6 +28,18 @@
         "backend": "#",
         "frontend": "#"
       }
+    },
+    {
+      "id": "codekids",
+      "name": "CodeKids",
+      "description": "Educational website teaching children programming with interactive Blockly games",
+      "highlights": [
+        "Developed the 'CodeKids' website to teach children programming with Blockly games",
+        "Integrated multilingual support and implemented role-based access for public users, students, teachers, and administrators"
+      ],
+      "technologies": ["Firebase", "JavaScript", "HTML", "Tailwind CSS", "Google Blockly"],
+      "keywords": ["educational", "children programming", "Blockly", "multilingual", "role-based access"],
+      "links": {}
     }
   ],
   "additionalProjects": [

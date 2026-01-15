@@ -104,7 +104,80 @@ Worked as part of a development team building mobile and web applications for va
 
 ---
 
-## Additional Experience Notes
+## Cloud Monsters | Full Stack Developer
+
+**Jan 2021 – Aug 2022**
+
+### Overview
+
+Developed educational platforms for teaching programming to children.
+
+### Key Projects & Achievements
+
+#### CodeKids Website
+
+- Built an interactive website teaching children programming using Blockly games
+- Implemented role-based access control for public users, students, teachers, and administrators
+- Added multilingual support for broader accessibility
+- Integrated Firebase for backend services and real-time features
+
+### Technologies Used
+
+- **Frontend:** JavaScript, HTML, Tailwind CSS, Google Blockly
+- **Backend:** Firebase
+- **Database:** Firebase
+
+---
+
+## Distinct Lab | Full Stack Developer
+
+**Jun 2022 – Oct 2022**
+
+### Overview
+
+Worked on upgrading and maintaining Angular-based applications.
+
+### Key Projects & Achievements
+
+#### Angular Application Upgrade
+
+- Migrated existing project to Angular 14, handling breaking changes
+- Implemented Material UI for modern, responsive UI components
+- Integrated Firebase for backend services and data management
+- Optimized code for better performance and maintainability
+- Added new features to enhance user experience
+
+### Technologies Used
+
+- **Frontend:** Angular 14, Material UI, TypeScript
+- **Backend:** Firebase
+
+---
+
+## 3W WIT Web Agency | Full Stack Developer
+
+**Oct 2022 – Jan 2023**
+
+### Overview
+
+Enhanced and maintained existing web applications for clients.
+
+### Key Projects & Achievements
+
+#### Application Enhancements
+
+- Added new features and fixed bugs in existing projects
+- Improved performance and maintainability using Symfony and SQL
+- Utilized AJAX and jQuery for dynamic user interactions
+- Participated in code reviews and contributed to scalable codebase
+- Diagnosed and resolved production issues
+
+### Technologies Used
+
+- **Backend:** Symfony, PHP, SQL
+- **Frontend:** jQuery, AJAX, CSS
+
+---
 
 ### Soft Skills Demonstrated
 
