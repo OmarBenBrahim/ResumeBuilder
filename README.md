@@ -1,71 +1,114 @@
 # Omar Ben Brahim - Resume Builder
 
-This project contains an HTML version of my resume that can be dynamically updated and customized for specific job applications.
+An HTML resume builder with AI-powered job tailoring, Puppeteer PDF generation, and automated page validation.
 
-## 🚀 Quick Start
+## Quick Start
 
-1. Open `index.html` in a browser to view the resume
-2. Click "Download PDF" to print/save as PDF
-3. For job-specific tailoring, provide job description to AI agent
+```bash
+# Preview in browser
+open index.html
 
-## 📁 Project Structure
+# Generate PDF
+node generate-pdf.js
+
+# Start server (enables Download button PDF generation)
+node server.js
+
+# Validate page fits on one page
+node validate-page.js
+```
+
+## Project Structure
 
 ```
 ResumeBuilder/
 ├── index.html              # Main resume (Tailwind CSS)
-├── styles.css              # Print & responsive styles
-├── script.js               # Download functionality
-├── .ai-rules.md            # ⚠️ AI MUST READ THIS FIRST
-├── README.md               # This file
+├── styles.css              # Screen + print styles
+├── script.js               # Download button + page fit check
+├── generate-pdf.js         # Puppeteer PDF generator
+├── validate-page.js        # Page height validator
+├── server.js               # Local server with PDF endpoint
+├── .ai-rules.md            # AI agent rules (MUST READ)
+├── package.json            # Dependencies (puppeteer-core)
 │
-├── resources/              # Structured JSON data
-│   ├── profile.json        # Personal info & summary
-│   ├── skills.json         # Technical skills by category
+├── resources/              # Source of truth for resume content
+│   ├── profile.json        # Personal info & contact
+│   ├── skills.json         # Skills by category (with variants)
 │   ├── experience.json     # Work experience details
 │   ├── projects.json       # Project descriptions
-│   └── additional-skills.json
+│   └── additional-skills.json  # Extended skills & certifications
 │
-├── docs/                   # Extended content for AI
+├── docs/                   # Extended content for AI to draw from
 │   ├── full-experience.md  # Detailed work history
-│   ├── projects-detail.md  # Extended project info
-│   ├── achievements.md     # Metrics & achievements
+│   ├── projects-detail.md  # Extended project descriptions
+│   ├── achievements.md     # Metrics & quantified results
 │   └── cover-letters/      # Cover letter templates
 │
-└── jobs/                   # Save job descriptions here
+└── jobs/                   # Job descriptions to tailor for
     └── README.md           # Instructions for saving jobs
 ```
 
-## 🤖 For AI Agents
+## PDF Generation
 
-### Before Making Changes:
-1. **READ `.ai-rules.md`** - Contains all formatting and ATS rules
-2. Check `docs/` folder for additional content to include
-3. Check `jobs/` folder for target job description
+**Recommended:** Use `node generate-pdf.js` for pixel-perfect output.
 
-### Key Rules:
-- Resume MUST fit on single page
-- Use Tailwind CSS classes as specified in rules
-- Follow ATS optimization guidelines
-- Keep consistent formatting (see `.ai-rules.md`)
+| Method | Command | How it works |
+|--------|---------|--------------|
+| CLI script | `node generate-pdf.js` | Generates `resume.pdf` using Puppeteer with print styles |
+| CLI script | `node generate-pdf.js my-resume.pdf` | Custom output filename |
+| Server | `node server.js` then click Download | Serves HTML at `localhost:3000`, Download button generates PDF via Puppeteer |
+| Browser print | `Ctrl+P` > Save as PDF | Fallback, uses browser's `@media print` styles |
 
-## 🎨 Styling
+The PDF generator applies `@media print` styles via `emulateMediaType("print")` so the output matches what `Ctrl+P` would produce, but with precise control over margins and page size.
 
-Uses **Tailwind CSS** via CDN with custom configuration for:
-- Resume-specific font sizes (10pt body, 11pt sections, 24pt name)
-- Consistent colors (primary, secondary, muted, link)
-- Print-optimized output
+## Page Validation
 
-## 📄 Customization Workflow
+```bash
+node validate-page.js
+```
+
+Measures the actual rendered height of the resume using Puppeteer and reports:
+
+```
+[PASS] Resume fits on one page (10.54in / 11.00in)
+
+Section breakdown:
+  - OMAR BEN BRAHIM: 0.82in
+  - PROFESSIONAL SUMMARY: 1.22in
+  - TECHNICAL SKILLS: 1.35in
+  - EXPERIENCE: 4.05in (8 bullets)
+  - PROJECTS: 1.49in (2 bullets)
+  - EDUCATION: 0.72in
+```
+
+You can also check from the browser console: `checkPageFit()`
+
+## Styling
+
+- **Screen styles:** Larger, more readable sizes for browser preview
+- **Print styles:** `@media print` applies slightly tighter spacing to guarantee single-page fit
+- **Tailwind CSS** via CDN with custom colors and fonts (Bricolage Grotesque, Inter)
+- **Debug mode:** Add class `debug-overflow` to `.resume-page` to see a red line at the 11-inch page boundary
+
+## Job Tailoring Workflow
 
 1. Save job description to `jobs/company-role.md`
-2. Ask AI: "Tailor my resume for the job in jobs/company-role.md"
-3. AI reads rules, job description, and available content
-4. AI modifies `index.html` to match job requirements
-5. Download PDF and apply!
+2. Ask AI: "Tailor my resume for the job in `jobs/company-role.md`"
+3. AI reads `.ai-rules.md`, checks your skills files, and asks about any missing skills
+4. AI edits `index.html` using content from your resource files
+5. AI runs `node validate-page.js` to verify single-page fit
+6. AI runs `node generate-pdf.js` to produce the final PDF
 
-## 🖨️ Printing
+## For AI Agents
 
-- Click "Download PDF" button
-- Or use Ctrl/Cmd + P
-- Select "Save as PDF"
-- Ensure "Print backgrounds" is enabled for colors
+**Before making any changes, READ `.ai-rules.md`.** Key rules:
+
+- **Skills:** ONLY use skills from `resources/skills.json` and `resources/additional-skills.json`. ASK the user before adding any skill not in those files.
+- **Content:** Source all experience bullets from `resources/experience.json` and `docs/full-experience.md`. Never copy language from job descriptions.
+- **Page limit:** Resume MUST fit on one page. Run `node validate-page.js` after every edit.
+- **PDF:** Generate with `node generate-pdf.js`, not `window.print()`.
+
+## Dependencies
+
+- **puppeteer-core** - PDF generation and page validation
+- **Google Chrome/Chromium** - Required on the system (auto-detected)

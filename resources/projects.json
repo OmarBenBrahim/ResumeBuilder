@@ -25,8 +25,8 @@
       "technologies": ["ASP.NET", "Angular 14", "SQL", "Cloudinary"],
       "keywords": ["real-time", "messaging", "photo sharing", "admin controls"],
       "links": {
-        "backend": "#",
-        "frontend": "#"
+        "backend": "https://github.com/OmarBenBrahim/Messenger_API",
+        "frontend": "https://github.com/OmarBenBrahim/Messenger"
       }
     },
     {

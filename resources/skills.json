@@ -2,28 +2,77 @@
   "frontend": {
     "primary": ["Next.js", "React.js", "React Native", "Angular", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
     "secondary": ["Astro", "jQuery", "AJAX", "Framer Motion", "Material UI"],
+    "variants": {
+      "Next.js": ["Next", "NextJS", "Next.js"],
+      "React.js": ["React", "ReactJS", "React.js"],
+      "React Native": ["React Native"],
+      "Angular": ["Angular", "Angular 14"],
+      "TypeScript": ["TypeScript", "TS"],
+      "JavaScript (ES6+)": ["JavaScript", "JS", "ES6", "ECMAScript", "ES6+"],
+      "HTML5": ["HTML", "HTML5"],
+      "CSS3": ["CSS", "CSS3"],
+      "Tailwind CSS": ["Tailwind", "TailwindCSS"],
+      "jQuery": ["jQuery", "JQuery"],
+      "Material UI": ["Material UI", "MUI"]
+    },
     "proficiency": "Expert"
   },
   "backend": {
     "primary": ["Node.js", "Express.js", "Hono", ".NET Core", "ASP.NET", "Symfony", "PHP", "Java"],
     "secondary": ["Firebase"],
+    "variants": {
+      "Node.js": ["Node", "NodeJS", "Node.js"],
+      "Express.js": ["Express", "ExpressJS", "Express.js"],
+      ".NET Core": [".NET", "dotnet", ".NET Core", "ASP.NET Core"],
+      "ASP.NET": ["ASP.NET", "ASP.NET Core"],
+      "Symfony": ["Symfony"],
+      "PHP": ["PHP"],
+      "Java": ["Java"],
+      "Firebase": ["Firebase"]
+    },
     "proficiency": "Expert"
   },
   "automation": {
     "primary": ["AI Agents", "Workflow Automation", "n8n", "Vapi", "ElevenLabs"],
     "secondary": ["LLM-powered assistants", "Real-time integrations", "Webhooks", "API orchestration"],
+    "variants": {
+      "AI Agents": ["AI Agents", "AI agents", "Intelligent Agents"],
+      "n8n": ["n8n"],
+      "Vapi": ["Vapi"],
+      "ElevenLabs": ["ElevenLabs", "Eleven Labs"],
+      "Webhooks": ["Webhooks", "Webhook"],
+      "API orchestration": ["API orchestration", "API Orchestration"]
+    },
     "proficiency": "Expert"
   },
   "databases": {
     "primary": ["PostgreSQL", "Supabase", "Firebase", "MySQL", "MongoDB"],
     "secondary": ["SQL", "Cassandra"],
+    "variants": {
+      "PostgreSQL": ["PostgreSQL", "Postgres", "pg"],
+      "Supabase": ["Supabase"],
+      "MySQL": ["MySQL"],
+      "MongoDB": ["MongoDB", "Mongo"],
+      "SQL": ["SQL"],
+      "Cassandra": ["Cassandra"]
+    },
     "proficiency": "Advanced"
   },
   "tools": {
     "devops": ["Git", "Docker"],
     "collaboration": ["Agile", "Jira", "Figma"],
     "apis": ["REST APIs", "Webhooks", "Real-time APIs"],
-    "other": ["Google Blockly", "Cloudinary"]
+    "other": ["Google Blockly", "Cloudinary"],
+    "variants": {
+      "Git": ["Git", "GitHub", "Git/GitHub"],
+      "Docker": ["Docker", "Docker Containerization"],
+      "Agile": ["Agile", "Agile/Scrum", "Scrum"],
+      "Jira": ["Jira"],
+      "Figma": ["Figma"],
+      "REST APIs": ["REST", "REST APIs", "RESTful", "RESTful APIs"],
+      "Webhooks": ["Webhooks", "Webhook"],
+      "Real-time APIs": ["Real-time APIs", "WebSocket", "WebSockets"]
+    }
   },
   "specializations": [
     "AI-driven automation",
