@@ -36,14 +36,14 @@ async function generate() {
   const outputName = process.argv[2] || "resume.pdf";
   const outputPath = path.resolve(__dirname, outputName);
 
-  const chromePath = await findChrome();
+  const chromePath = process.env.CHROME_PATH || (await findChrome());
   if (!chromePath) {
     console.error("[ERROR] No Chrome/Chromium found.");
     process.exit(1);
   }
 
   const browser = await puppeteer.launch({
-    executablePath: process.env.CHROME_PATH || chromePath,
+    executablePath: chromePath,
     headless: "new",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });

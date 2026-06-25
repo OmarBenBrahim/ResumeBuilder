@@ -38,7 +38,7 @@ async function findChrome() {
 }
 
 async function validate() {
-  const chromePath = await findChrome();
+  const chromePath = process.env.CHROME_PATH || (await findChrome());
   if (!chromePath) {
     console.error(
       "[ERROR] No Chrome/Chromium found. Install Chrome or set CHROME_PATH."
@@ -47,7 +47,7 @@ async function validate() {
   }
 
   const browser = await puppeteer.launch({
-    executablePath: process.env.CHROME_PATH || chromePath,
+    executablePath: chromePath,
     headless: "new",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });

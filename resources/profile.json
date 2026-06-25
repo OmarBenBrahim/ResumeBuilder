@@ -1,6 +1,6 @@
 {
   "name": "Omar Ben Brahim",
-  "title": "Full Stack & AI Automation Developer",
+  "title": "Full Stack Developer | AI Automation & Agents",
   "location": {
     "city": "Menzel Temime",
     "region": "Nabeul",
@@ -15,6 +15,6 @@
     "linkedin": "https://linkedin.com/in/omarbenbrahim",
     "portfolio": "https://omar-ben-brahim.vercel.app"
   },
-  "summary": "Full Stack Developer specializing in AI-driven automation, agent development, and end-to-end application delivery. Experienced in building intelligent systems powered by real-time workflows, voice-enabled assistants, and process automation using AI platforms and custom API integrations. Proficient in modern full-stack development with Next.js, React, Supabase, and TypeScript, delivering scalable applications and automation that streamline operations, enhance customer interaction, and reduce manual workload. Adept at architecting solutions from front-end interfaces to backend logic, infrastructure, and deployment.",
+  "summary": "Full Stack Developer with 5 years of development experience and 2 years focused on AI automation, voice agents, and CRM-integrated workflows. Experienced in building web and mobile applications as well as automation systems that connect phone calls, customer records, appointment booking, order support, meeting notes, and follow-up processes. Skilled in voice and telephony workflows including call routing, IVR, queues, user assignment, CRM updates, and automated call summaries using Twilio, Ringover, Vapi, ElevenLabs, GHL, and n8n.",
   "languages": ["English", "Arabic", "French"]
 }

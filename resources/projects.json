@@ -44,16 +44,16 @@
   ],
   "additionalProjects": [
     {
-      "name": "AI Customer Support Agent",
-      "description": "Built intelligent customer support agents that handle inquiries, schedule appointments, and execute tasks automatically",
-      "technologies": ["n8n", "Vapi", "ElevenLabs", "Node.js"],
-      "keywords": ["AI", "customer support", "automation", "voice AI"]
+      "name": "AI Voice Appointment Booking Agent",
+      "description": "Phone-based assistant that handles incoming customer calls, collects required information, answers common questions, creates GoHighLevel appointments, and saves caller details, scheduling information, and conversation summaries directly in CRM meeting notes. Designed the CRM handoff so qualified leads included required call details, appointment context, and next-step notes for follow-up after the call.",
+      "technologies": ["Twilio", "Vapi", "OpenAI", "GoHighLevel", "n8n"],
+      "keywords": ["AI", "voice AI", "appointment booking", "lead qualification", "CRM automation", "call summaries"]
     },
     {
-      "name": "Voice-Enabled Assistant",
-      "description": "Implemented voice AI assistants with real-time communication logic for workflow handoff and data capture",
-      "technologies": ["Vapi", "ElevenLabs", "TypeScript", "Webhooks"],
-      "keywords": ["voice AI", "real-time", "workflow automation"]
+      "name": "AI Customer Support Voice Assistant",
+      "description": "Full AI support assistant for product search, order placement, order status checks, and support meeting booking, connecting each flow with CRM records so the support team could continue from the saved customer context.",
+      "technologies": ["ElevenLabs", "OpenAI", "n8n", "CRM integrations"],
+      "keywords": ["voice AI", "customer support", "product discovery", "order placement", "order status", "meeting booking", "availability checks", "CRM integration"]
     }
   ]
 }
