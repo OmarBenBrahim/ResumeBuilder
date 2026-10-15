@@ -6,7 +6,11 @@
     },
     {
       "category": "Cloud & DevOps",
-      "skills": ["Vercel Deployment", "Docker Containerization", "CI/CD Pipelines", "Serverless Functions"]
+      "skills": ["Vercel Deployment", "Docker Containerization", "CI/CD Pipelines", "GitHub Actions", "AWS Deployment", "Serverless Functions"]
+    },
+    {
+      "category": "Blockchain & Crypto",
+      "skills": ["Crypto Token Analysis", "Blockchain Security Data", "Token Security Scanning"]
     },
     {
       "category": "Payment Integrations",
@@ -19,6 +23,14 @@
     {
       "category": "SEO & Performance",
       "skills": ["Technical SEO", "Core Web Vitals Optimization", "Lighthouse Performance", "Image Optimization"]
+    },
+    {
+      "category": "Browser & CRM Workflows",
+      "skills": ["Browser Extension Development", "API-backed CRM Workflows"]
+    },
+    {
+      "category": "Testing",
+      "skills": ["Automated Testing with Playwright/Vitest"]
     }
   ],
   "softSkills": [

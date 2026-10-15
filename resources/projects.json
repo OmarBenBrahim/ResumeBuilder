@@ -54,6 +54,33 @@
       "description": "Full AI support assistant for product search, order placement, order status checks, and support meeting booking, connecting each flow with CRM records so the support team could continue from the saved customer context.",
       "technologies": ["ElevenLabs", "OpenAI", "n8n", "CRM integrations"],
       "keywords": ["voice AI", "customer support", "product discovery", "order placement", "order status", "meeting booking", "availability checks", "CRM integration"]
+    },
+    {
+      "name": "WorkForce-Connect",
+      "description": "Contributed to a Dockerized workforce management system with Strapi CMS, React Admin web backoffice, and Expo/React Native mobile app. Added and improved document management, worker upload flows, admin approval/rejection/hide/unhide controls, compliance coverage reporting, push notification registration, worksheet signing/document sync workflows, and GitHub Actions deployment to AWS ECR.",
+      "technologies": ["React", "TypeScript", "Vite", "React Admin", "Material UI", "Strapi", "React Native", "Expo", "Docker", "SQLite", "Dropbox Sign", "SharePoint", "AWS", "AWS ECR", "GitHub Actions", "AWS SES", "Sentry", "Puppeteer"],
+      "keywords": ["workforce management", "document management", "compliance", "React Admin", "Strapi", "React Native", "Expo", "Docker", "AWS", "GitHub Actions", "push notifications", "e-signature", "SharePoint"],
+      "links": {
+        "live": "https://work-force.be/"
+      }
+    },
+    {
+      "name": "linkedin-crm",
+      "description": "Contributed to a LinkedIn CRM and outreach automation platform with a Next.js frontend, Django REST backend, PostgreSQL database, and Manifest V3 browser extension. Improved onboarding and extension setup, campaign creation UI, prospect list management, inline prospect editing, lead enrichment display, authentication redirects, and extension runtime reliability.",
+      "technologies": ["Next.js", "React", "TypeScript", "Django", "Django REST Framework", "PostgreSQL", "Docker", "Manifest V3", "Chrome Extension APIs", "esbuild", "Tailwind CSS", "Radix UI", "TanStack Table", "Zod", "Playwright", "Vitest", "pnpm"],
+      "keywords": ["CRM", "LinkedIn automation", "browser extension", "campaign management", "prospect management", "onboarding", "Django REST", "Next.js", "PostgreSQL", "Docker", "Playwright", "Vitest"],
+      "links": {
+        "live": "https://www.outreachgenie.ai/"
+      }
+    },
+    {
+      "name": "Trakil",
+      "description": "Worked from a cloned crypto/blockchain project repository containing a Next.js customer-facing app, Next.js admin dashboard, and Flask token security scanning API. Added and refined token analysis UI/API flows, multilingual crypto security results, provider-based risk displays, and API-backed token scan handling across the web app and scanner service.",
+      "technologies": ["Next.js", "React", "TypeScript", "Python", "Flask", "Docker", "Supabase", "PostgreSQL", "SQLAlchemy", "Alembic", "Redis", "Sentry", "Vitest", "pytest", "Stripe", "Zod", "Tailwind CSS"],
+      "keywords": ["crypto", "blockchain", "token security", "token analysis", "risk scoring", "Flask API", "Next.js", "Supabase", "Docker", "pytest", "Vitest"],
+      "links": {
+        "live": "https://www.ghanemlab.com/en"
+      }
     }
   ]
 }

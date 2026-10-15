@@ -29,6 +29,13 @@ Working as an independent consultant helping businesses automate their operation
 - Created responsive UIs with Tailwind CSS and Shadcn/ui components
 - Deployed applications on Vercel with CI/CD pipelines
 
+#### Collaborative Production Systems
+
+- Delivered client dashboards, CRM screens, and automation tools by turning product requirements into maintainable frontend features, API integrations, and production deployments
+- Improved WorkForce-Connect document operations by enhancing worker compliance flows, admin review actions, mobile document handling, and Docker deployment automation to AWS ECR
+- Enhanced linkedin-crm product workflows by improving onboarding, campaign creation, prospect management, authentication redirects, and browser-extension reliability for LinkedIn outreach automation
+- Refined Trakil crypto token scanning flows by improving scan result pages, provider risk displays, multilingual security content, and Flask-backed API handling
+
 #### Automation & Integration
 
 - Designed complex n8n workflows with 50+ nodes for business process automation
@@ -46,11 +53,13 @@ Working as an independent consultant helping businesses automate their operation
 
 ### Technologies Used
 
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
-- **Backend:** Node.js, Express, Hono, Supabase Edge Functions
-- **Database:** Supabase (PostgreSQL), Firebase
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS, React Admin, Vite
+- **Backend:** Node.js, Express, Hono, Django, Django REST Framework, Strapi, Flask, Supabase Edge Functions
+- **Database:** Supabase (PostgreSQL), PostgreSQL, SQLite, Firebase, SQLAlchemy, Alembic, Redis
 - **AI/Automation:** n8n, Vapi, ElevenLabs, OpenAI, Anthropic
-- **Deployment:** Vercel, Railway, Docker
+- **Mobile & Extension:** React Native, Expo, Manifest V3, Chrome Extension APIs
+- **Deployment:** Vercel, Railway, Docker, AWS, AWS ECR, GitHub Actions, pnpm, esbuild
+- **Crypto:** Token security scanning, blockchain security data, risk scoring displays
 
 ---
 

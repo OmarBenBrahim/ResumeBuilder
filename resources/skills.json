@@ -1,7 +1,7 @@
 {
   "frontend": {
     "primary": ["Next.js", "React.js", "React Native", "Angular", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
-    "secondary": ["Astro", "jQuery", "AJAX", "Framer Motion", "Material UI"],
+    "secondary": ["Astro", "jQuery", "AJAX", "Framer Motion", "Material UI", "React Admin", "Expo", "Vite", "Manifest V3", "Chrome Extension APIs", "Radix UI", "TanStack Table"],
     "variants": {
       "Next.js": ["Next", "NextJS", "Next.js"],
       "React.js": ["React", "ReactJS", "React.js"],
@@ -13,13 +13,20 @@
       "CSS3": ["CSS", "CSS3"],
       "Tailwind CSS": ["Tailwind", "TailwindCSS"],
       "jQuery": ["jQuery", "JQuery"],
-      "Material UI": ["Material UI", "MUI"]
+      "Material UI": ["Material UI", "MUI"],
+      "React Admin": ["React Admin", "react-admin"],
+      "Expo": ["Expo"],
+      "Vite": ["Vite"],
+      "Manifest V3": ["Manifest V3", "Chrome Extension Manifest V3", "MV3"],
+      "Chrome Extension APIs": ["Chrome Extension APIs", "Chrome APIs", "Browser Extension APIs"],
+      "Radix UI": ["Radix UI", "Radix"],
+      "TanStack Table": ["TanStack Table", "React Table"]
     },
     "proficiency": "Expert"
   },
   "backend": {
     "primary": ["Node.js", "Express.js", "Hono", ".NET Core", "ASP.NET", "Symfony", "PHP", "Java"],
-    "secondary": ["Firebase", "Python", "Asynchronous Programming"],
+    "secondary": ["Firebase", "Python", "Asynchronous Programming", "Django", "Django REST Framework", "Strapi", "Flask"],
     "variants": {
       "Node.js": ["Node", "NodeJS", "Node.js"],
       "Express.js": ["Express", "ExpressJS", "Express.js"],
@@ -30,6 +37,10 @@
       "Java": ["Java"],
       "Firebase": ["Firebase"],
       "Python": ["Python"],
+      "Django": ["Django"],
+      "Django REST Framework": ["Django REST Framework", "DRF"],
+      "Strapi": ["Strapi"],
+      "Flask": ["Flask"],
       "Asynchronous Programming": ["Asynchronous Programming", "Async Programming", "Async", "Asynchronous"]
     },
     "proficiency": "Expert"
@@ -62,33 +73,51 @@
   },
   "databases": {
     "primary": ["PostgreSQL", "Supabase", "Firebase", "MySQL", "MongoDB"],
-    "secondary": ["SQL", "Cassandra"],
+    "secondary": ["SQL", "SQLite", "Cassandra", "SQLAlchemy", "Alembic", "Redis"],
     "variants": {
       "PostgreSQL": ["PostgreSQL", "Postgres", "pg"],
       "Supabase": ["Supabase"],
       "MySQL": ["MySQL"],
       "MongoDB": ["MongoDB", "Mongo"],
       "SQL": ["SQL"],
+      "SQLite": ["SQLite"],
+      "SQLAlchemy": ["SQLAlchemy"],
+      "Alembic": ["Alembic"],
+      "Redis": ["Redis"],
       "Cassandra": ["Cassandra"]
     },
     "proficiency": "Advanced"
   },
   "tools": {
-    "devops": ["Git", "Docker", "Linux", "Google Cloud"],
+    "devops": ["Git", "Docker", "Linux", "Google Cloud", "AWS", "GitHub Actions"],
     "collaboration": ["Agile", "Jira", "Figma"],
     "apis": ["REST APIs", "Webhooks", "Real-time APIs"],
-    "other": ["Google Blockly", "Cloudinary"],
+    "other": ["Google Blockly", "Cloudinary", "pnpm", "esbuild", "Playwright", "Vitest", "Dropbox Sign", "SharePoint", "AWS SES", "Sentry", "Puppeteer", "Zod", "pytest", "Gunicorn"],
     "variants": {
       "Git": ["Git", "GitHub", "Git/GitHub"],
       "Docker": ["Docker", "Docker Containerization"],
       "Linux": ["Linux"],
       "Google Cloud": ["Google Cloud", "GCP", "Google Cloud Platform"],
+      "AWS": ["AWS", "Amazon Web Services", "AWS ECR", "Amazon ECR"],
+      "GitHub Actions": ["GitHub Actions"],
       "Agile": ["Agile", "Agile/Scrum", "Scrum"],
       "Jira": ["Jira"],
       "Figma": ["Figma"],
       "REST APIs": ["REST", "REST APIs", "RESTful", "RESTful APIs"],
       "Webhooks": ["Webhooks", "Webhook"],
-      "Real-time APIs": ["Real-time APIs", "WebSocket", "WebSockets"]
+      "Real-time APIs": ["Real-time APIs", "WebSocket", "WebSockets"],
+      "pnpm": ["pnpm"],
+      "esbuild": ["esbuild"],
+      "Playwright": ["Playwright"],
+      "Vitest": ["Vitest"],
+      "Dropbox Sign": ["Dropbox Sign"],
+      "SharePoint": ["SharePoint"],
+      "AWS SES": ["AWS SES", "Amazon SES"],
+      "Sentry": ["Sentry"],
+      "Puppeteer": ["Puppeteer"],
+      "Zod": ["Zod"],
+      "pytest": ["pytest"],
+      "Gunicorn": ["Gunicorn"]
     }
   },
   "specializations": [
@@ -102,6 +131,10 @@
     "SEO optimization",
     "Multilingual web experiences",
     "Payment integrations",
-    "Educational software development"
+    "Educational software development",
+    "Browser extension development",
+    "API-backed CRM workflows",
+    "Blockchain and crypto applications",
+    "Token security scanning"
   ]
 }

@@ -12,10 +12,14 @@
         "Configured GoHighLevel and n8n workflows with API/webhook logic for contact updates, appointment records, call outcomes, follow-up tasks, and support context",
         "Designed call flows that route incoming callers to the right AI assistant or human agent based on intent, availability, and support needs, using Twilio, Vapi, ElevenLabs, and queue/IVR logic",
         "Built full-stack web applications using React, Next.js, TypeScript, Node.js, Supabase, API integrations, and Vercel deployments",
-        "Automated lead qualification, appointment booking, customer support, and workflow handoff for client operations"
+        "Automated lead qualification, appointment booking, customer support, and workflow handoff for client operations",
+        "Delivered client dashboards, CRM screens, and automation tools by turning product requirements into maintainable frontend features, API integrations, and production deployments",
+        "Improved WorkForce-Connect document operations by enhancing worker compliance flows, admin review actions, mobile document handling, and Docker deployment automation to AWS ECR",
+        "Enhanced linkedin-crm product workflows by improving onboarding, campaign creation, prospect management, authentication redirects, and browser-extension reliability for LinkedIn outreach automation",
+        "Refined Trakil crypto token scanning flows by improving scan result pages, provider risk displays, multilingual security content, and Flask-backed API handling"
       ],
-      "technologies": ["Next.js", "React", "Supabase", "Tailwind", "TypeScript", "n8n", "Vapi", "ElevenLabs", "Twilio", "Ringover", "GoHighLevel", "OpenAI"],
-      "keywords": ["AI agents", "automation", "voice AI", "full-stack", "workflow automation", "IVR", "queues", "call routing", "CRM integration"]
+      "technologies": ["Next.js", "React", "Supabase", "Tailwind", "TypeScript", "n8n", "Vapi", "ElevenLabs", "Twilio", "Ringover", "GoHighLevel", "OpenAI", "Django", "Django REST Framework", "Strapi", "React Admin", "Expo", "Manifest V3", "Chrome Extension APIs", "esbuild", "AWS", "GitHub Actions", "Flask", "SQLAlchemy", "Redis"],
+      "keywords": ["AI agents", "automation", "voice AI", "full-stack", "workflow automation", "IVR", "queues", "call routing", "CRM integration", "document management", "worker compliance", "browser extension", "campaign management", "prospect management", "AWS deployment", "GitHub Actions", "crypto", "blockchain", "token security"]
     },
     {
       "id": "nna-resources",
