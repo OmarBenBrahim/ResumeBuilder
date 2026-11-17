@@ -1,0 +1,12 @@
+# Contact header shared by every resume.
+name: Omar Ben Brahim
+location: Menzel Temime, Nabeul, Tunisia
+email: benbrahimomar7@gmail.com
+phone: +216 54 890 978
+links:
+  - label: github.com/OmarBenBrahim
+    url: https://github.com/OmarBenBrahim
+  - label: linkedin.com/in/omarbenbrahim
+    url: https://linkedin.com/in/omarbenbrahim
+  - label: omar-ben-brahim.vercel.app
+    url: https://omar-ben-brahim.vercel.app
