@@ -1,0 +1,60 @@
+# Tailored for jobs/rise-technology-senior-fullstack-developer.md
+max_pages: 1
+title: Full Stack Developer
+
+summary: >-
+  Full Stack Developer with 6 years of experience designing and shipping web, mobile, and API
+  products with TypeScript, React, Next.js, and Node.js. Currently main developer of a
+  multi-app workforce management platform, owning features end to end from REST APIs and
+  admin dashboards to the mobile app, CI/CD pipelines, and AWS deployments, with a track record
+  of measurable performance gains.
+
+skills:
+  - label: Frontend
+    items: [React, Next.js, TypeScript, JavaScript, React Native, Expo, React Admin, Tailwind CSS]
+  - label: Backend & APIs
+    items: [Node.js, REST APIs, Strapi, Prisma, Django REST Framework, Flask, Webhooks]
+  - label: Cloud & CI/CD
+    items: [AWS (ECR, SES), Docker, GitHub Actions, Vercel, Git]
+  - label: Databases
+    items: [PostgreSQL, Supabase, BigQuery, Firebase, Redis]
+  - label: Testing
+    items: [Vitest, Playwright, pytest]
+
+experience:
+  - company: Freelance
+    role: Full Stack Developer & AI Automation Developer
+    dates: Jan 2025 – Present
+    bullets:
+      - Main developer of a workforce management platform (Strapi API, React Admin dashboard, Expo mobile app), delivering automated invoicing with Peppol e-invoicing, document compliance, e-signatures, and worker request workflows.
+      - Manage CI/CD pipelines and AWS deployments with GitHub Actions and Docker, and publish mobile apps to the App Store and Google Play.
+      - Built a multilingual candidate marketplace with Next.js, Prisma, and next-intl, letting companies browse anonymised profiles and request introductions.
+      - Built an MCP server that exposes the platform's API to AI assistants securely, with OAuth login, per-user permissions, audit logging, and unit tests.
+      - Improved a LinkedIn outreach CRM and its browser extension, reworking onboarding and campaign creation and fixing extension race conditions (Next.js, Django REST, PostgreSQL).
+      - Extended an AI lead-enrichment pipeline (n8n, BigQuery, OpenAI) over 173K records, increasing contacts reached per 1,000 leads 8.5× and eliminating stuck runs.
+
+  - company: NNA Resources
+    role: Front-End Developer & React Native Developer
+    dates: Apr 2023 – Nov 2024
+    bullets:
+      - Sped up app startup by 30% and reduced bundle size by 25% with lazy loading and code splitting, and improved web load times by 15%.
+      - Built KidCare, a parenting app with Konnect and Stripe payments that has processed 1000+ payments, plus its multilingual Astro website, cutting page load time by 30%.
+      - Built and published 3+ React Native apps to the App Store and Google Play, rated 4.5+ stars.
+
+  - company: 3W WIT Web Agency
+    role: Full Stack Developer
+    dates: Oct 2022 – Jan 2023
+    bullets:
+      - Added features and resolved production bugs in client Symfony/PHP applications, building dynamic AJAX/jQuery interfaces and taking part in code reviews.
+
+  - company: Cloud Monsters
+    role: Full Stack Developer
+    dates: Jan 2021 – Aug 2022
+    bullets:
+      - Built CodeKids, a platform that teaches children programming through Google Blockly games, with Firebase, multilingual content, and role-based access for students, teachers, and admins.
+
+education:
+  - school: Higher Institute of Technological Studies of Nabeul
+    degree: Bachelor's Degree in Computer Science
+    year: 2021
+languages: [English, Arabic, French]
