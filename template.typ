@@ -36,9 +36,10 @@
   text(size: 9.8pt, weight: 700, fill: ink, tracking: 0.3pt, upper(t)),
 )
 
-#let entry(left, right, bullets) = block(above: 9pt, below: 0pt, {
+#let entry(left, right, bullets, note: none) = block(above: 9pt, below: 0pt, {
   block(sticky: true, below: 1.5pt, grid(columns: (1fr, auto), column-gutter: 8pt,
     text(size: 1.04em, left), text(fill: muted, right)))
+  if note != none { block(sticky: true, above: 6pt, below: 0pt, text(fill: muted, style: "italic", note)) }
   for b in bullets { bullet(b) }
 })
 
@@ -67,7 +68,7 @@
 #if "experience" in r {
   section("Experience")
   for e in r.experience {
-    entry([#text(fill: ink, weight: 700, e.company) | #e.role], e.dates, e.bullets)
+    entry([#text(fill: ink, weight: 700, e.company) | #e.role], e.dates, e.bullets, note: e.at("note", default: none))
   }
 }
 

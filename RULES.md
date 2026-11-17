@@ -1,7 +1,7 @@
 # Resume rules
 
 1. `career.md` is the only source of facts. Never use anything from its **Unverified** section, and never invent metrics, skills, dates, titles, seniority, language levels, or credentials.
-2. WorkForce-Connect, linkedin-crm, and Trakil are contributions to other people's products. Use "contributed to / improved / added". Never say "created", "built the platform", or "owned".
+2. Follow the **Ownership** lines in `career.md` exactly. WorkForce-Connect: "main developer", never "created". linkedin-crm and Trakil: "contributed to / improved". Show the role as plain "Freelance". Don't claim client-facing work or stakeholder management (see career.md).
 3. Use the job's terminology when it truthfully matches a skill in `career.md` (e.g. "Postgres" → PostgreSQL). Don't copy sentences or phrasing from the posting.
 4. Skill gaps: list the job's important requirements that `career.md` doesn't support. Ask Omar only when his answer could change the application; otherwise leave them out. Confirmed new facts go into `career.md` first.
 5. Bullets: one sentence each. Say what was improved or built, what Omar did, and the result when one is known. Don't write bullets that only list tools.

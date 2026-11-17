@@ -1,37 +1,40 @@
 # General resume. Copy this file to resumes/<job-slug>.yaml to tailor.
-# Optional keys: title, paper (a4 | us-letter), max_pages (default 1), certifications.
+# Optional keys: title, paper (a4 | us-letter), max_pages (default 1), projects, certifications;
+# per experience entry: note (italic context line).
 max_pages: 1
 title: Full Stack Developer | AI Automation & Agents
 
 summary: >-
-  Full Stack Developer with 6 years of experience building web, mobile, and API-backed products
-  with React, Next.js, TypeScript, Node.js, and React Native. Since 2025, builds AI voice agents
-  and CRM workflow automation for client operations, while contributing features and deployment
-  automation to production platforms for workforce compliance, LinkedIn outreach, and crypto
-  token scanning.
+  Full Stack Developer with 6 years of experience building web, mobile, and API products with
+  TypeScript, React, Next.js, Node.js, and React Native. As a freelance contractor, main developer
+  of a Belgian staffing platform across its backend, admin dashboard, mobile app, and AWS delivery
+  pipeline, and builder of AI automation including an MCP server, n8n lead-enrichment pipelines,
+  and voice agents.
 
 skills:
   - label: Frontend
-    items: [React, Next.js, TypeScript, JavaScript, React Native, Expo, Tailwind CSS, Astro, Angular]
+    items: [React, Next.js, TypeScript, React Native, Expo, React Admin, Tailwind CSS, Astro]
   - label: Backend
-    items: [Node.js, REST APIs, Webhooks, Django REST Framework, Flask, Strapi, Symfony/PHP]
+    items: [Node.js, Strapi, REST APIs, MCP Servers, Prisma, Django REST Framework, Flask, Webhooks]
   - label: AI & Automation
-    items: [AI Voice Agents, Vapi, ElevenLabs, Twilio, OpenAI, n8n, GoHighLevel, CRM Integration]
+    items: [n8n, OpenAI, AI Voice Agents, Vapi, ElevenLabs, Twilio, Apollo, GoHighLevel]
   - label: Data & DevOps
-    items: [PostgreSQL, Supabase, Firebase, Redis, Docker, GitHub Actions, AWS (ECR), Vercel, Git]
-  - label: Testing
-    items: [Playwright, Vitest, pytest]
+    items: [PostgreSQL, BigQuery, Supabase, Docker, GitHub Actions, AWS (ECR, SES), Vercel, Git]
+  - label: Testing & Integrations
+    items: [Vitest, Playwright, pytest, Exact Online, Peppol, Dropbox Sign, SharePoint]
 
 experience:
   - company: Freelance
     role: Full Stack Developer & AI Automation Developer
     dates: Jan 2025 – Present
     bullets:
-      - Built AI voice agents for appointment booking and customer support that take 100+ calls a day and handle 70%+ of routine inquiries automatically, cutting client operational workload by 40–60%.
-      - Designed call routing and CRM handoff that send callers to the right AI assistant or human agent and save appointments and call summaries in GoHighLevel, using Twilio, Vapi, ElevenLabs, and n8n.
-      - Contributed to WorkForce-Connect, a workforce compliance platform, by improving worker document upload and admin review flows across the React Admin backoffice and Expo mobile app, and adding a GitHub Actions pipeline that pushes Docker images to AWS ECR.
-      - Improved linkedin-crm, a LinkedIn outreach product, by reworking onboarding and campaign creation, adding inline prospect editing, and fixing browser-extension race conditions across Next.js, Django REST Framework, and Manifest V3.
-      - Refined Trakil's crypto token-scan pages to show multi-provider risk data and multilingual security content, and improved its Flask scanner API handling.
+      - Main developer of WorkForce-Connect, a Belgian staffing platform (Strapi API, React Admin backoffice, Expo mobile app), shipping worker requests, document compliance, Exact Online invoicing, and Peppol self-billing.
+      - Own its DevOps and releases end to end, from the GitHub Actions pipeline pushing Docker images to AWS ECR to the test, preprod, and production environments, database backups, and App Store and Google Play releases.
+      - Built an MCP server that lets AI assistants like Claude work with WorkForce data under each user's own permissions, with OAuth login, audit logging of every write, and unit tests.
+      - Built WorkForce's candidate showcase site with Next.js, Prisma, and next-intl, where prospective clients browse anonymised workers by skill and request an introduction.
+      - Took over and extended Fusion180's n8n lead-enrichment pipeline over 173K BigQuery records, adding multi-search domain matching with OpenAI and a Hunter fallback, raising contacts per 1,000 leads 8.5× with zero stuck runs.
+      - Built AI voice agents for booking and support with Twilio, Vapi, ElevenLabs, and GoHighLevel that take 100+ calls a day and handle 70%+ of routine inquiries automatically.
+      - Improved linkedin-crm, a LinkedIn outreach product, by reworking onboarding and campaign creation and fixing browser-extension race conditions (Next.js, Django REST, Manifest V3).
 
   - company: NNA Resources
     role: Front-End Developer & React Native Developer
@@ -40,7 +43,6 @@ experience:
       - Built and published 3+ React Native apps to the App Store and Google Play, rated 4.5+ stars.
       - Built KidCare, a parenting app with Konnect and Stripe payments that has processed 1000+ payments, plus its multilingual Astro website, cutting page load time by 30%.
       - Sped up app startup by 30% and reduced bundle size by 25% with lazy loading and code splitting, and improved web load times by 15%.
-      - Built reusable components, custom hooks, REST API integrations, and real-time WebSocket chat, plus SEO-optimized multilingual sites with Next.js and Astro.
 
   - company: 3W WIT Web Agency
     role: Full Stack Developer
@@ -53,12 +55,6 @@ experience:
     dates: Jan 2021 – Aug 2022
     bullets:
       - Built CodeKids, a platform that teaches children programming through Google Blockly games, with Firebase, multilingual content, and role-based access for students, teachers, and admins.
-
-projects:
-  - name: Messaging App
-    link: { label: Code, url: "https://github.com/OmarBenBrahim/Messenger" }
-    bullets:
-      - Built a real-time messaging app with Angular, ASP.NET, SQL, and Cloudinary that supports 500+ concurrent users with sub-100ms message delivery, photo sharing, and admin photo approval.
 
 education:
   - school: Higher Institute of Technological Studies of Nabeul
