@@ -4,6 +4,11 @@
 #let r = yaml(sys.inputs.resume)
 #let p = yaml("profile.yaml")
 #let title = r.at("title", default: "Full Stack Developer")
+// fit (0..1) widens spacing slightly; build.sh picks the largest value that keeps the
+// page count, so the last page ends near the bottom margin instead of leaving a gap.
+#let fit = float(sys.inputs.at("fit", default: "0"))
+#let sp(base, extra) = base + fit * extra
+#let margin-y = 1.35cm
 
 #let ink = rgb("#0f0f0f")
 #let body = rgb("#2e2e2e")
@@ -13,7 +18,7 @@
 #set document(title: p.name + " — " + title, author: p.name)
 #set page(
   paper: r.at("paper", default: "a4"),
-  margin: (x: 1.6cm, y: 1.35cm),
+  margin: (x: 1.6cm, y: margin-y),
   header: context if here().page() > 1 {
     set text(size: 8pt, fill: muted)
     grid(columns: (1fr, auto), [#text(fill: ink, weight: 600, p.name) · #title], [#p.email · #here().page()])
@@ -21,22 +26,22 @@
 )
 // Hyphenation off: split words hurt ATS keyword parsing.
 #set text(font: "Inter", size: 9.9pt, fill: body, lang: "en", hyphenate: false)
-#set par(leading: 0.78em, spacing: 0.78em)
+#set par(leading: sp(0.78em, 0.14em), spacing: sp(0.78em, 0.14em))
 #show link: set text(fill: link-color)
 
-#let bullet(t) = block(above: 5.5pt, below: 0pt, breakable: false, grid(
+#let bullet(t) = block(above: sp(5.5pt, 3pt), below: 0pt, breakable: false, grid(
   columns: (0.85em, 1fr),
   text(fill: muted)[•], t,
 ))
 
 // Light tracking only: wide letter-spacing makes text extractors split words ("E D U C AT I O N").
 #let section(t) = block(
-  sticky: true, above: 14pt, below: 6pt, width: 100%,
+  sticky: true, above: sp(14pt, 8pt), below: sp(6pt, 2pt), width: 100%,
   stroke: (bottom: 0.6pt + ink), inset: (bottom: 2.5pt),
   text(size: 9.8pt, weight: 700, fill: ink, tracking: 0.3pt, upper(t)),
 )
 
-#let entry(left, right, bullets, note: none) = block(above: 9pt, below: 0pt, {
+#let entry(left, right, bullets, note: none) = block(above: sp(9pt, 5pt), below: 0pt, {
   block(sticky: true, below: 1.5pt, grid(columns: (1fr, auto), column-gutter: 8pt,
     text(size: 1.04em, left), text(fill: muted, right)))
   if note != none { block(sticky: true, above: 6pt, below: 0pt, text(fill: muted, style: "italic", note)) }
@@ -61,7 +66,7 @@
 #if "skills" in r {
   section("Technical Skills")
   for g in r.skills {
-    block(above: 6.5pt, below: 0pt)[#text(fill: ink, weight: 700)[#g.label:] #g.items.join(", ")]
+    block(above: sp(6.5pt, 2.5pt), below: 0pt)[#text(fill: ink, weight: 700)[#g.label:] #g.items.join(", ")]
   }
 }
 
@@ -94,3 +99,6 @@
   section("Certifications")
   for c in r.certifications { bullet(c) }
 }
+
+// End-of-content marker: build.sh reads it to measure how full the last page is.
+#context [#metadata((y: here().position().y.pt(), h: page.height.pt(), m: margin-y.to-absolute().pt())) <end>]
