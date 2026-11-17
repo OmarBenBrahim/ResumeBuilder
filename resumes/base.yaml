@@ -7,7 +7,7 @@ title: Full Stack Developer | AI Automation & Agents
 summary: >-
   Full Stack Developer with 6 years of experience building web, mobile, and API products with
   TypeScript, React, Next.js, Node.js, and React Native. As a freelance contractor, main developer
-  of a Belgian staffing platform across its backend, admin dashboard, mobile app, and AWS delivery
+  of a workforce management platform across its backend, admin dashboard, mobile app, and AWS delivery
   pipeline, and builder of AI automation including an MCP server, n8n lead-enrichment pipelines,
   and voice agents.
 
@@ -28,13 +28,13 @@ experience:
     role: Full Stack Developer & AI Automation Developer
     dates: Jan 2025 – Present
     bullets:
-      - Main developer of WorkForce-Connect, a Belgian staffing platform (Strapi API, React Admin backoffice, Expo mobile app), shipping worker requests, document compliance, Exact Online invoicing, and Peppol self-billing.
-      - Manage its CI/CD pipelines and AWS deployments with GitHub Actions and Docker, and publish the mobile app to the App Store and Google Play.
-      - Built an MCP server that lets AI assistants like Claude work with WorkForce data under each user's own permissions, with OAuth login, audit logging of every write, and unit tests.
-      - Built WorkForce's candidate showcase site with Next.js, Prisma, and next-intl, where prospective clients browse anonymised workers by skill and request an introduction.
-      - Took over and extended Fusion180's n8n lead-enrichment pipeline over 173K BigQuery records, adding multi-search domain matching with OpenAI and a Hunter fallback, raising contacts per 1,000 leads 8.5× with zero stuck runs.
+      - Main developer of a workforce management platform (Strapi API, React Admin dashboard, Expo mobile app), delivering automated invoicing with Peppol e-invoicing, document compliance, e-signatures, and worker request workflows.
+      - Manage CI/CD pipelines and AWS deployments with GitHub Actions and Docker, and publish mobile apps to the App Store and Google Play.
+      - Built an MCP server that connects AI assistants like Claude to business data securely, with OAuth login, per-user permissions, and audit logging.
+      - Built a multilingual candidate marketplace with Next.js, Prisma, and next-intl, letting companies browse anonymised profiles and request introductions.
+      - Extended an AI lead-enrichment and outreach pipeline (n8n, BigQuery, OpenAI, Apollo) over 173K records, increasing contacts reached per 1,000 leads 8.5× and eliminating stuck runs.
       - Built AI voice agents for booking and support with Twilio, Vapi, ElevenLabs, and GoHighLevel that take 100+ calls a day and handle 70%+ of routine inquiries automatically.
-      - Improved linkedin-crm, a LinkedIn outreach product, by reworking onboarding and campaign creation and fixing browser-extension race conditions (Next.js, Django REST, Manifest V3).
+      - Improved a LinkedIn outreach CRM and its browser extension, reworking onboarding and campaign creation and fixing extension race conditions (Next.js, Django REST, Manifest V3).
 
   - company: NNA Resources
     role: Front-End Developer & React Native Developer
